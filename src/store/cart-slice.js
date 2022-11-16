@@ -44,7 +44,7 @@ const cartSlice = createSlice({
         state.totalQuantity--;
       } else {
         removeItem.quantity--;
-        removeItem.totalPrice -= removeItem.totalPrice;
+        removeItem.totalPrice -= removeItem.price;
       }
     },
     setShowCart(state) {

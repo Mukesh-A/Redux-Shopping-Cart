@@ -32,8 +32,10 @@ input {
 }
 .login-btn {
   border: none;
-  width: 80%;
+  width: 15rem;
+  height: 3rem;
   padding: 10px;
+  font-size: 18px;
 }
 .login-btn:hover {
   color: white;
